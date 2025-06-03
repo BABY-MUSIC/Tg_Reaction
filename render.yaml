@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: multi-bot-pyrogram
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "./start.sh"
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: PORT
+        value: 8000
