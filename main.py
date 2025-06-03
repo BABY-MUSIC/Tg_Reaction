@@ -9,11 +9,12 @@ import os
 # Load environment variables from .env file
 load_dotenv()
 
-API_ID=1234567
-API_HASH=your_api_hash_here
+API_ID="16457832"
+API_HASH="3030874d0befdb5d05597deacc3e83ab"
 
-BOT_TOKEN_1=your_bot_token_1_here
-BOT_TOKEN_2=your_bot_token_2_here
+BOT_TOKEN_1="7581171239:AAG99QESgSiKQuV2vizw4wHF1WypJjoN5Ik"   # Replace with actual token
+BOT_TOKEN_2="7756406698:AAHdNxkWNc9beej769fJI5wtGf31J619N6Q"   # Optional: Add more tokens
+
 
 
 # Collect all bot tokens (e.g., BOT_TOKEN_1, BOT_TOKEN_2, ...)
